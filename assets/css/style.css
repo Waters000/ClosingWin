@@ -7,7 +7,7 @@
 }
 
 :root {
-    --primary-color: #fce138;
+    --primary-color: #000000;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
 }
@@ -26,7 +26,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/closing-win.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -114,7 +114,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/closing-win.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -122,6 +122,10 @@ section {
     height: 600px;
     background-attachment: fixed;
     background-position: 80%;
+}
+
+.whitebg {
+    background-color: #fff;
 }
 .hero-cta{
     width: 35%;
@@ -156,6 +160,22 @@ body p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 5);
     border-radius: 15px;
 }
+
+.hero-form-two {
+    background-color: rgba(56, 239, 252, 0.8);
+    padding: 20px;
+    width: 40%;
+    color: var(--secondary-color);
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--secondary-color);
+    bottom: 120px;
+    right: 140px;
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    border-radius: 15px;
+}
+
 .hero-form button:hover {
     background-color: var(--tertiary-color);
 }
