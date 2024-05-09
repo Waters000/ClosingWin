@@ -128,6 +128,7 @@ section {
     background-color: #ffffffde;
     border-radius: 15px;
     border: 5px solid #000000;
+    padding: 20px;
 }
 
 .yellowbg {
@@ -138,11 +139,12 @@ section {
 }
 
 .whatwedo{
-    background-color: #f7f7b7;
+    background-color: #91fcc6;
     border-radius: 15px;
     border: 5px solid #000000;
     padding: 10px;
     margin: 50px;
+    text-align: center;
    
 
 }
