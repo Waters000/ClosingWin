@@ -9,7 +9,7 @@
 :root {
     --primary-color: #000000;
     --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
+    --tertiary-color: #000000;
 }
 
 
@@ -85,7 +85,7 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: var(--primary-color);
+    background: white;
     width: 100%;
     padding: 40px 35px;
 }
@@ -106,27 +106,46 @@ footer a {
 }
 
 section {
-    padding: 60px;
+   
 }
 
 /* Hero style image */
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     background-image: url("../images/closing-win.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
     align-items: flex-start;  
-    height: 600px;
+    height: 800px;
     background-attachment: fixed;
     background-position: 80%;
 }
 
 .whitebg {
-    background-color: #fff;
+    background-color: #ffffffde;
+    border-radius: 15px;
+    border: 5px solid #000000;
 }
+
+.yellowbg {
+    background-color: #f7f7b7;
+    border-radius: 15px;
+    border: 5px solid #000000;
+}
+
+.whatwedo{
+    background-color: #f7f7b7;
+    border-radius: 15px;
+    border: 5px solid #000000;
+    padding: 10px;
+    margin: 50px;
+   
+
+}
+
 .hero-cta{
     width: 35%;
     text-align: right;
@@ -147,16 +166,16 @@ body p {
 
 
 .hero-form {
-    background-color: rgba(252, 252, 56, 0.8);
-    padding: 20px;
+    background-color: rgba(165, 0, 0, 0.8);
+    padding: 10px;
     width: 40%;
+    
     color: var(--secondary-color);
     border-style: solid;
     border-width: 3px;
     border-color: var(--secondary-color);
     bottom: 120px;
     right: 140px;
-    margin: 3.5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 5);
     border-radius: 15px;
 }
@@ -231,7 +250,7 @@ body p {
 }
 
 .steps {
-    background: var(--primary-color);
+    background: #f7f7b7;
 }
 
 .steps h2 {
@@ -262,6 +281,15 @@ body p {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
+}
+.googleForm {
+    margin: 10px auto;
+   
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
     justify-content: space-between;
 }
 .step:not(:last-child) {
