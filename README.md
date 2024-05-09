@@ -1,16 +1,16 @@
-# Run Buddy
+# Closing Win
 
 ## Purpose
-A website that offers fitness training services.
+A website that offers a Closing Win to Real Estate buyers and sellers.
 
 ## Built with
 *HTML
 *CSS
 
 ## Website
-https://waters000.github.io/run-buddy/
+https://closingWin.com
 
 ## Contribution
 Made with ❤️ by Chris Waters
 
-## ©️2019 Run Buddy, Inc
+## ©️2024 Closing Win
